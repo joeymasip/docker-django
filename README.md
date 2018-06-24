@@ -94,9 +94,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'docker_django_db',
-        'USER': 'docker_django_user',
-        'PASSWORD': 'docker_django_pass',
-        'HOST': 'mysql',   # Or an IP Address that your DB is hosted on
+        'USER': 'dbuser',
+        'PASSWORD': 'dbpw',
+        'HOST': 'mysql',
         'PORT': '3306',
         'TEST': {
             'NAME': 'docker_django_db_test',

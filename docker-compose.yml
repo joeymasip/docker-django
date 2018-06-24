@@ -39,7 +39,7 @@ services:
       environment:
         - MYSQL_ROOT_PASSWORD=docker_root
         - MYSQL_DATABASE=docker_django_db
-        - MYSQL_USER=docker_django_user
-        - MYSQL_PASSWORD=docker_django_pass
+        - MYSQL_USER=dbuser
+        - MYSQL_PASSWORD=dbpw
       ports:
         - "8306:3306"
